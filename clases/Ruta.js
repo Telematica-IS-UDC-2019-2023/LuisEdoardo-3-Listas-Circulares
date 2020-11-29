@@ -36,10 +36,11 @@ export default class Ruta {
 
     eliminarBase(nombre){
         let aux = this.inicio;
-
-        if(this.inicio.nombre === nombre  && this.inicio.siguiente === this.inicio){
+        console.log(aux)
+        console.log(nombre)
+        if(this.inicio.nombre == nombre  && this.inicio.siguiente == this.inicio){
             this.inicio = null;
-        } else if (this.inicio.nombre === nombre){
+        } else if (this.inicio.nombre == nombre){
             this.inicio.siguiente.anterior = this.inicio.anterior;
             this.inicio.anterior.siguiente = this.inicio.siguiente;
             this.inicio = this.inicio.siguiente;

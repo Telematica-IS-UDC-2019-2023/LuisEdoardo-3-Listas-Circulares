@@ -31,7 +31,7 @@ Agregar.addEventListener('click' , () => {
     console.log(base);
 })
 
-Eliminar,addEventListener('click' , () => {
+Eliminar.addEventListener('click' , () => {
     let nombre = BaseN.value;
     ruta.eliminarBase(nombre);
     console.log(ruta);
