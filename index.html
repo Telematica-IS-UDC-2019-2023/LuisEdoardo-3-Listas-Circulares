@@ -6,22 +6,56 @@
     <title>Rutas</title>
 </head>
 <body>
-    <h2>Añadir base</h2>
-    <label for="BaseN">Nombre:</label>
-    <input type="text" id="BaseN">
-    <br>
-    <label for="BaseM">Duración (minutos):</label>
-    <input type="number" id="BaseM">
-    <br> <br>
-    <button id="btnBaseA">Agregar</button>
-    <button id="btnBaseEl">Eliminar</button>
-    <button id="btnBaseB">Buscar</button>
-    <button id="btnBaseI">Imprimir</button>
-    <br> 
-    <button id="btnBaseIns">Insertar</button>
-    <label for="BaseP">Posición:</label>
-    <input type="number" id="BaseP">
-    <br>
+    <h1 style="text-align: center">Rutas</h1>
+    <div class="flex">
+        <div class="container">
+            <div class="mr">
+                <h2>Añadir Base</h2>
+                <label for="BaseN">Nombre:</label>
+                <input type="text" id="BaseN">
+            </div>
+            <div class="mr">
+                <label for="BaseM">Duración (minutos):</label>
+                <input type="number" id="BaseM">
+            </div>
+            <div class="mr">
+                <label for="BaseP">Insertar Posición:</label>
+                <input type="number" id="BaseP">
+            </div>
+            <div class="mr">
+                <button id="btnBaseA">Agregar</button>
+            </div>
+            <div class="mr">
+                <button id="btnBaseEl">Eliminar</button>
+                <button id="btnBaseB">Buscar</button>
+            </div>
+            <div class="mr">
+                <button id="btnBaseI">Imprimir</button>
+                <button id="btnBaseIns">Insertar</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="mr">
+                <h2>Tarjeta de trabajo</h2>
+                <label for="baseInicio">Base de inicio:</label>
+                <input type="text" id="baseInicio">
+            </div>
+            <div class="mr">
+                <h2>Hora de inicio</h2>
+                <label for="horaI"></label>
+                <input type="time" id="horaI">
+            </div>
+            <div class="mr">
+                <h2>Hora de finalización</h2>
+                <label for="horaF"></label>
+                <input type="time" id="horaF">
+            </div>
+            <div class="mr">
+                <button id="btnCrearTarjeta">Crear</button>
+            </div>
+        </div>
+    </div>
+
     <label for="" id="etListaB"></label>
     <br>
     <label for="" id="etNombreB"></label>
@@ -32,17 +66,6 @@
     <br>
     <label for="" id="etAnteriorB"></label>
     <br>
-    <h2>Tarjeta de trabajo</h2>
-    <label for="baseInicio">Base de inicio:</label>
-    <input type="text" id="baseInicio">
-    <br>
-    <label for="horaI">Hora de inicio:</label>
-    <input type="time" id="horaI">
-    <br>
-    <label for="horaF">Hora de finalización:</label>
-    <input type="time" id="horaF">
-    <br>
-    <button id="btnCrearTarjeta">Crear</button>
 </body>
 <script src="main.js" type="module"></script>
 </html>

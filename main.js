@@ -1,6 +1,5 @@
 import Base from "./clases/Bases.js";
-import Bases from "./clases/Bases.js"
-import Ruta from "./clases/Ruta"
+import Ruta from "./clases/Ruta.js"
 
 const Agregar = document.getElementById('btnBaseA');
 const Eliminar = document.getElementById('btnBaseEl');
